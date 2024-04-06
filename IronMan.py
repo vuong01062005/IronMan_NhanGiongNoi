@@ -57,7 +57,7 @@ if __name__ == "__main__":
             wb.get().open(url)
             speak(f'Here is your {search} on youtube')
         elif 'open video' in query:
-            meme = r'D:\meme.mp4'
+            meme = r'D:\Vs_code\6DuAnPython\NhanGiongNoi\meme.mp4'
             os.startfile(meme)
         elif 'time' in query:
             time()
